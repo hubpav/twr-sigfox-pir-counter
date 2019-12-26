@@ -87,6 +87,22 @@ void battery_event_handler(bc_module_battery_event_t event, void *event_param)
     }
 }
 
+void sigfox_event_handler(bc_module_sigfox_t *self, bc_module_sigfox_event_t event, void *param)
+{
+    if (event == BC_MODULE_SIGFOX_EVENT_SEND_RF_FRAME_START)
+    {
+        bc_log_info("APP: Sigfox transmission started event");
+    }
+    else if (event == BC_MODULE_SIGFOX_EVENT_SEND_RF_FRAME_DONE)
+    {
+        bc_log_info("APP: Sigfox transmission finished event");
+    }
+    if (event == BC_MODULE_SIGFOX_EVENT_ERROR)
+    {
+        bc_log_error("APP: Sigfox error event");
+    }
+}
+
 void application_init(void)
 {
     bc_log_init(BC_LOG_LEVEL_DEBUG, BC_LOG_TIMESTAMP_ABS);
@@ -113,6 +129,7 @@ void application_init(void)
     bc_module_battery_set_update_interval(SENSOR_UPDATE_INTERVAL);
 
     bc_module_sigfox_init(&sigfox, BC_MODULE_SIGFOX_REVISION_R2);
+    bc_module_sigfox_set_event_handler(&sigfox, sigfox_event_handler, NULL);
 
     bc_scheduler_plan_absolute(0, 10 * 1000);
 
