@@ -105,7 +105,7 @@ void sigfox_event_handler(bc_module_sigfox_t *self, bc_module_sigfox_event_t eve
 
 void application_init(void)
 {
-    bc_log_init(BC_LOG_LEVEL_DEBUG, BC_LOG_TIMESTAMP_ABS);
+    bc_log_init(BC_LOG_LEVEL_ERROR, BC_LOG_TIMESTAMP_ABS);
 
     bc_data_stream_init(&sm_thermometer, SENSOR_DATA_STREAM_SAMPLES, &sm_thermometer_buffer);
     bc_data_stream_init(&sm_voltage, SENSOR_DATA_STREAM_SAMPLES, &sm_voltage_buffer);
