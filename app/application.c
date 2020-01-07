@@ -59,6 +59,17 @@ void pir_event_handler(bc_module_pir_t *self, bc_module_pir_event_t event, void 
     {
         bc_log_debug("APP: Motion event");
 
+        static bc_tick_t timeout;
+
+        bc_tick_t now = bc_tick_get();
+
+        if (now < timeout)
+        {
+            return;
+        }
+
+        timeout = now + 2000;
+
         if (motion_count < 0xffff)
         {
             motion_count++;
