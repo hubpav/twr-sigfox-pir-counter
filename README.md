@@ -1,11 +1,11 @@
-<a href="https://www.bigclown.com/"><img src="https://bigclown.sirv.com/logo.png" width="200" alt="BigClown Logo" align="right"></a>
+<a href="https://www.hardwario.com/"><img src="https://www.hardwario.com/ci/assets/hw-logo.svg" width="200" alt="HARDWARIO Logo" align="right"></a>
 
 # bcf-sigfox-pir-counter
 
-[![Travis](https://img.shields.io/travis/bigclownlabs/bcf-skeleton/master.svg)](https://travis-ci.org/bigclownlabs/bcf-skeleton)
-[![Release](https://img.shields.io/github/release/bigclownlabs/bcf-skeleton.svg)](https://github.com/bigclownlabs/bcf-skeleton/releases)
-[![License](https://img.shields.io/github/license/bigclownlabs/bcf-skeleton.svg)](https://github.com/bigclownlabs/bcf-skeleton/blob/master/LICENSE)
-[![Twitter](https://img.shields.io/twitter/follow/BigClownLabs.svg?style=social&label=Follow)](https://twitter.com/BigClownLabs)
+[![Travis](https://img.shields.io/travis/bigclownprojects/bcf-sigfox-pir-counter/master.svg)](https://travis-ci.org/bigclownprojects/bcf-sigfox-pir-counter)
+[![Release](https://img.shields.io/github/release/bigclownprojects/bcf-sigfox-pir-counter.svg)](https://github.com/bigclownprojects/bcf-sigfox-pir-counter/releases)
+[![License](https://img.shields.io/github/license/bigclownprojects/bcf-sigfox-pir-counter.svg)](https://github.com/bigclownprojects/bcf-sigfox-pir-counter/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/follow/hardwario_en.svg?style=social&label=Follow)](https://twitter.com/hardwario_en)
 
 This repository contains firmware skeleton for the Sigfox PIR Counter.
 
