@@ -2,7 +2,7 @@
 
 # bcf-sigfox-pir-counter
 
-[![Travis](https://img.shields.io/travis/bigclownprojects/bcf-sigfox-pir-counter/master.svg)](https://travis-ci.org/bigclownprojects/bcf-sigfox-pir-counter)
+[![build](https://github.com/hardwario/twr-sigfox-pir-counter/actions/workflows/main.yml/badge.svg)](https://github.com/hardwario/twr-sigfox-pir-counter/actions/workflows/main.yml)
 [![Release](https://img.shields.io/github/release/bigclownprojects/bcf-sigfox-pir-counter.svg)](https://github.com/bigclownprojects/bcf-sigfox-pir-counter/releases)
 [![License](https://img.shields.io/github/license/bigclownprojects/bcf-sigfox-pir-counter.svg)](https://github.com/bigclownprojects/bcf-sigfox-pir-counter/blob/master/LICENSE)
 [![Twitter](https://img.shields.io/twitter/follow/hardwario_en.svg?style=social&label=Follow)](https://twitter.com/hardwario_en)
